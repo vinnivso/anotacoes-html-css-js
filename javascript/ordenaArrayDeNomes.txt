@@ -1,0 +1,6 @@
+function OrdenaArrayDeNomes(arrayDeNomes) {
+   const nomesOrdenados = arrayDeNomes.map((elemento)=> {
+       return elemento
+   }).sort()
+   return nomesOrdenados
+  }

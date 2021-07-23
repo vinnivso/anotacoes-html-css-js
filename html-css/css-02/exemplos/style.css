@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h2.texto-destaque {
+    color: orangered;
+    /* padding: 50px;
+    width: 300px; */
+    box-sizing: border-box;
+}
+/*Enquanto mais eu especifico, mais será sua prioridade!*/
+.texto-destaque {
+    color: red;
+}
+p.texto-destaque {
+    background-color: aqua;
+}
+h2,h3,p {
+    border:4px palevioletred solid;
+}
+
+/*Só estiliza filhos diretos da div (não estiliza netos, bisnetos) */
+div > p {
+    background-color:peru;
+}
+
+/*Estiliza todos p's que estão dentro da div, sejam netos, bisnetos, etc */
+div p {
+    background-color:purple;
+}
+button {
+    border: none;
+    background-color: white;
+    padding: 24px;
+}
+button:hover {
+    background-color:orange;
+    cursor: pointer;
+}
+a:active {
+    color: orange;
+}
+a:visited {
+    color: hotpink;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    text-align: center;
+    width:400px;
+    margin: 0 auto;
+}
+body {
+    text-align: center;
+}

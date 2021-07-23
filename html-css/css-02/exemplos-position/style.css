@@ -1,0 +1,53 @@
+
+/* Configuração padrão */
+
+html {
+  box-sizing: border-box;
+}
+
+
+body {
+  background: #333;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  max-width: 700px;
+}
+
+div {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0;
+  min-height: 150px;
+  overflow: hidden;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.green {
+  background-color: green;
+}
+
+.magenta {
+  background-color: magenta;
+}
+
+
+/* exemplos aqui */
+
+/* .primeiro-elemento {
+  height: 200px;
+}
+.segundo-elemento {
+  position: relative;
+  top: 50px;
+} */
+.elemento-pai {
+  height: 200px;
+}
+.elemento-filho {
+  position: relative;
+  top: 50px;
+}

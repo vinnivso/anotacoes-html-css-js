@@ -1,0 +1,56 @@
+h1 {
+    color:rgb(228, 9, 9);
+    background-color:rgb(0, 0, 0);
+}
+
+div {
+    color:rgb(211, 15, 15);
+    background-color:aqua;
+
+}
+
+/* Referenciando a classe */
+.texto-amarelo {
+    color: yellowgreen;
+}
+
+/* Referenciando um id */
+#aula-css {
+    color:bisque;
+    background-color:olivedrab;
+}
+
+/*PRIORIDADES: ID, CLASS e depois TAG. (ID é mais prioritário, seguido de CLASS e depois a TAG). ID = Uso mais específico, pouca repetição. CLASS = Vai possuir algumas repetições. TAG = Quando quer com que todos recebam essa aplicação. */
+
+/* Alterei o comportamento da TAG SPAN, de INLINE para BLOCKS */
+span {
+    display:block;
+}
+
+/* O inline block você consegue deixar um do lado do outro porém estabelecer uma altura máxima */
+.card-texto {
+    width: 200px;
+    display:inline-block;
+}
+
+/*Display none, muito bom para mobile. Quando você quer que algum elemento desapareça da tela. */
+.nao-mostrar {
+    display: none;
+}
+
+.caixa {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    border: 10px solid black;
+    margin: 38px;
+    padding:10px 20px;
+}
+
+.pai {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    width: 200px;
+    height: 200px;
+}
+.filha {
+    width: 70%;
+    height: 100%;
+}

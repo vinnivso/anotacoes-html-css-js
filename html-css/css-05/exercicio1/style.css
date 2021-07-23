@@ -1,0 +1,43 @@
+#texto-fonte-root{
+    font-size:3rem;
+}
+
+#texto-paddings-verticais{
+    background-color: dodgerblue;
+    padding: 2em 0;
+}
+
+#altura-porcentagem-comprimento{
+    background-color:fuchsia;
+    height: 20vw;
+}
+
+#comprimento-metade-altura{
+    background-color:gold;
+    width: 50vh;
+}
+
+.container{
+    border: 1px solid black;
+    width: 400px;
+    font-size: 20px;
+}
+
+ul{
+    height: 500px;
+}
+
+#fonte-setenta{
+    font-size: .7em; /*Fonte pai possui 20px*/
+    /* font-size:70%; Poderia ter sido somente os 70% */
+}
+
+#comprimento-pai{
+    background-color:yellowgreen;
+    width: 10%;
+}
+
+#altura-pai{
+    background-color: indigo;
+    height: 10%;
+}

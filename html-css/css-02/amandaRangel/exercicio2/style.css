@@ -1,0 +1,22 @@
+
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+button:active {
+  background-color: hotpink;
+  color: red;
+}
+
+button {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  width: 100px;
+}

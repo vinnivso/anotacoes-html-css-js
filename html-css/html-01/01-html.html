@@ -1,0 +1,358 @@
+<!-- HTML É UMA LINGUAGEM DE MARCAÇÃO
+
+● A marcação é feita através de tags
+Linguagens de Marcação 👣
+<tag>Conteúdo</tag>
+
+● Tags podem ser aninhadas (nested)
+Linguagens de Marcação 👣
+<tag-pai>
+ <tag-filha>
+ Conteúdo
+ </tag-filha>
+</tag-pai>
+
+Linguagens de Marcação 👣
+<tag-pai atributo="valor">
+ <tag-filha outro-atributo="valor2">
+ Conteúdo
+ </tag-filha>
+</tag-pai>
+
+HTML - Estrutura da Página Web 🕸
+Página Web
+
+head:
+● Título da página
+● Links CSS e JS
+● Configurações da
+página
+● Outras coisas
+doidas
+
+body:
+● Textos
+● Imagens
+● Conteúdo
+● Todo o resto
+
+ HTML - Estrutura da Página Web 🕸
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <title>Minha página</title>
+</head>
+<body>
+ <p>Meu conteúdo</p>
+</body>
+</html>
+
+Cabeçalho - Head �
+● Contém informações de configuração do site
+○ Título da página
+○ Realizar o link com arquivos externos
+○ E muito mais, como definição de metadados!
+
+● Definindo o título da página
+Head - Título da Página 󰡜
+<head>
+ <title>Minha página</title>
+</head>
+
+● Normalmente usado para fazer um link com um
+arquivo de estilização externo (.css)
+Head - Link com arquivos 󰡜
+<head>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+Head - Metadados �
+● A tag meta permite definir metadados da página
+● São dados que não são visíveis ao usuário, mas que
+são utilizados para se indexar as páginas, facilitando o
+trabalho de buscadores
+● Podem ter muitos atributos (muitos mesmo)! Você
+pode ver todos - ou pelo menos a maioria - clicando no
+botão abaixo ou pesquisando!
+
+Corpo - Body
+● É a parte que contém o corpo do site, a estrutura que o
+usuário vai efetivamente ver!
+● Exemplos de estruturas:
+○ Textos formatados
+○ Lista de elementos
+○ Imagens
+○ Tabelas
+Corpo - Body󰣮
+○ Formulários
+○ Botões
+○ E outros...
+
+Block Vs Inline 📦
+● Os elementos do HTML podem ser divididos em
+Block-Level ou Inline
+● Um elemento block:
+○ Sempre começa numa nova linha
+○ Ocupa toda a width (largura) disponível
+○ Elemento padrão que define uma seção block
+<div> </div>
+Block Level
+
+● Um elemento inline:
+○ Não começa numa nova linha
+○ Ocupa toda a width (largura) necessária
+○ Elemento padrão que define uma seção inline
+<span> </span>
+Inline
+
+Elementos de Texto 📑
+● Para colocar títulos utilizamos as tags de heading
+<h1> </h1>
+<h2> </h2>
+<h3> </h3>
+<h4> </h4>
+<h5> </h5>
+<h6> </h6>
+Block Level
+
+Elementos de Texto 📑
+Para colocar parágrafos (ou seja, textos que não são
+títulos) utilizamos a tag p
+<p> </p>
+Block Level
+
+Elementos de Texto 📑
+Para pular linha, usamos a tag break line
+<br>
+Inline
+
+Elementos de Texto 📑
+● Conseguimos formatar o estilo do texto também
+● Para deixar em negrito, usamos bold/strong
+<strong> </strong>
+<b> </b>
+Inline
+
+Elementos de Texto 📑
+Para deixar com ênfase (famoso itálico), usamos i/em
+<em> </em>
+<i> </i>
+Inline
+
+Elementos de Texto 📑
+● Para deixar com sublinhado (underlined), usamos u
+<u> </u>
+Inline
+
+Elementos de Listas 🗄
+● As listas HTML são feitas utilizando três tags:
+○ ol, ul, li
+<ol> </ol>
+</li> </li>
+<ul> </ul>
+Block Level
+
+Elementos de Listas 🗄
+● ol representa uma lista ordenada (ordered list)
+● Com ele, os elementos da lista (li - list item) serão
+apresentados com números representando a ordem
+Block Level
+
+Elementos de Listas 🗄
+● ul representa uma lista ordenada (unordered list)
+● Com ele, os elementos da lista (li - list item) serão
+apresentados com bullets ("bolinhas")
+Block Level
+
+Elementos de Tabela 🍽
+● A tag que define uma tabela HTML é:
+<table> </table>
+● Para criar uma linha usamos a tag table row:
+<tr> </tr>
+Block Level
+
+Elementos de Tabela 🍽
+● Informações de cada linha são colocadas na tag table
+data:
+<td> </td>
+● A tag table header, permite definir títulos para as
+colunas da nossa tabela
+<th> </th>
+Inline
+
+Elementos Especiais �
+● Conseguimos fazer um link para outros sites
+utilizando a tag anchor
+<a href="http://labenu.com.br">Labenu</a>
+Inline
+
+Elementos Especiais �
+● Conseguimos, também, fazer um link para outras
+páginas no nosso próprio site
+<a href="home.html">Voltar para home</a>
+Inline
+
+Elementos Especiais �
+● A tag image permite colocar images
+<img src="imagem.jpg" alt="Imagem">
+<img src="link-para-imagem" alt="Imagem">
+Inline
+
+Tags de Mídia - video 🎥
+● A tag video permite colocar um vídeo no documento
+HTML
+<video></video>
+● Atributos importantes: controls, src e loop
+<video src="arquivo/link" controls loop>
+
+Tags de Mídia - audio
+    ● A tag video permite colocar um vídeo no documento
+HTML
+<audio></audio>
+● Atributos importantes: controls, src e loop
+<audio src="arquivo/link" controls loop>
+
+Elementos de Formulários 📝
+● Temos que começar nosso formulário utilizando a
+tag form
+<form action="#">
+Block Level
+
+Elementos de Formulários 📝
+● O campo para o usuário inserir as suas informações é
+representado dela tag input
+● Ele pode vir junto com uma outra tag: label. Ela é
+usada para indicar o que o usuário deve escrever no
+input em questão
+Inline
+
+Elementos de Formulários 📝
+<label for="nome">Nome</label>
+<input type="text" name="nome" id="nome">
+Inline
+
+Elementos de Formulários 📝
+● Botões são representados pela tag button:
+<button type="submit">Enviar</button>
+Inline
+
+Resumo �
+● head:
+○ title
+○ link
+○ meta
+
+● body:
+○ elementos de texto
+■ heading: h1 - h6 ⇒ Block
+■ p ⇒ Block
+■ strong / b ⇒ Inline
+■ em / i ⇒ Inline
+■ u ⇒ Inline
+
+● body:
+○ elementos de lista
+■ ol ⇒ Block
+■ ul ⇒ Block
+■ li ⇒ Block
+
+● body:
+○ elementos de tabela
+■ table ⇒ Block
+■ tr ⇒ Inline
+■ th ⇒ Inline
+■ td ⇒ Inline
+
+● Outros:
+○ elementos especiais
+■ a ⇒ Inline
+■ img ⇒ Inline
+
+● Outros:
+○ elementos formulários
+■ form ⇒ Block
+■ label ⇒ Inline
+■ input ⇒ Inline
+■ button ⇒ Inline
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-html</title>
+</head>
+<body>
+    <div>Tudo belezinha?</div>
+    <div>Tudo belezinha mais uam vez?</div>
+    <span>Estou dando SPAN!</span>
+    <span>Estou dando SPAN MAIS UMA VEZ!</span>
+    <div>Ocupo tudo e foda-se!</div>
+    <h1>Eu sou um H1</h1>
+    <h2>Notícias do dia!</h2>
+    <p>É o seguinte: Pegaram o Lázaro Momochi!<br> <strong>O mizerável é um gênio!</strong>
+    </p>
+    <p><strong>Porém os ninjas da ANBU ceifaram ele!</strong></p>
+    <p><em>Kakashi o ninja que copia, utilizou seu Mangekyou!</em></p>
+    <p><u>Até hoje não faz sentido como o Terceiro Hokage se foi!</u></p>
+    <ol>
+        <li>Batata</li>
+        <li>Couve</li>
+        <li>Manjericão</li>
+        <li>Abacaxi</li>
+    </ol>
+    <ul>
+        <li>Batata</li>
+        <li>Couve</li>
+        <li>Manjericão</li>
+        <li>Abacaxi</li>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Turma</th>
+        </tr>
+        <tr>
+            <td>Marina</td>
+            <td>Dumont</td>
+        </tr>
+        <tr>
+            <td>Samyr</td>
+            <td>Lovelace</td>
+        </tr>
+        <tr>
+            <td>Rafael</td>
+            <td>Lovelace</td>
+        </tr>
+        <tr>
+            <td>Yuzo</td>
+            <td>Mello</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Fruta</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>Maça</td>
+            <td>R$ 2,32</td>
+        </tr>
+    </table>
+    <p>Siga-nos em nossa
+    <a href="http://www.labenu.com.br">
+    Homepage da LABENU</a>
+    !!!
+    </p>
+    <p>Vamos acessar o home?
+        <a href="./home.html">
+        Clique aqui.</a>
+    </p>
+    <h2>Olha o poder destrutivo de um IS-3 utilizando um 122mm D-25T, com munições 230D.</h2>
+    <img src="./img/download.jpg"alt="IS-3, chegou no fim da WW2 para moer nazistas!">
+
+</body>
+</html>
