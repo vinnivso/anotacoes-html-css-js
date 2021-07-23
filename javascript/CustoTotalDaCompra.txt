@@ -1,0 +1,10 @@
+const custoTotalDaCompra = (numeroDeMacas) => {
+  if(numeroDeMacas >= 0 && numeroDeMacas < 12) {
+    return `O custo total das compras é: R$${numeroDeMacas * 1.3}`
+  } else if (numeroDeMacas >= 12) {
+    return `O custo total das compras é: R$${numeroDeMacas}`
+  } else if (numeroDeMacas < 0) {
+    return `Opa meu brother! Não tem como comprarmos ${numeroDeMacas} maças!`
+  }
+}
+console.log(custoTotalDaCompra(prompt('Digite quantas maças deseja comprar!')))

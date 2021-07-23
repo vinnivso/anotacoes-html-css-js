@@ -1,0 +1,78 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMBINADORES */
+
+/* Múltiplas condições */
+
+h2.texto-destaque {
+  color: orange;
+  /* padding: 50px; */
+  /* width: 300px; */
+}
+
+.texto-destaque {
+  color: red;
+}
+
+p.texto-destaque {
+  /* background-color: palegreen; */
+}
+
+/* Seleção múltipla */
+h2, h3, p {
+  border: 4px palevioletred solid;
+}
+
+/* Só estiliza filhos diretos da div (não estiliza netos, bisnetos) */
+div > p {
+  background-color: peru;
+}
+
+/* Estiliza todos p's  que estão dentro da div, sejam netos, bisnetos, etc */
+div p {
+  background-color: purple;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 24px;
+}
+
+/* hover: ao usuário passar o mouse em cima do elemento do html */
+button:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+/* active: ao usuário clicar em cima do elemento do html */
+a:active {
+  color: orange;
+}
+
+/* visited: link já visitado pelo usuário */
+a:visited {
+  color: hotpink;
+}
+
+/* retira o sublinhado do link */
+a {
+  text-decoration: none;
+}
+
+/* Centralização horizontal de elementos block: tem que ter width definida */
+.container {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* centralização horizontal de elementos inline: coloca o text-align do pai do elementos a ser centralizado */
+body {
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height:100vh;
+}
+header {
+    background-color:lightblue;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav {
+    background-color:lightgreen;
+    height: 60px;
+    position:sticky;
+    top: 0;
+}
+main {
+    margin-top:80px;
+}
+.container {
+    height: 200vh;
+    position: relative;
+
+}
+footer {
+    background-color:lightpink;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

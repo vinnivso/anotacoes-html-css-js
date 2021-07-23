@@ -1,0 +1,30 @@
+h1 {
+    color: green;
+}
+.nao-mostrar {
+    display: none;
+}
+
+.div-vermelha{
+    background-color: red;
+    padding: 0 4px;
+    margin: 0 4px;
+    display: inline
+}
+
+.div-laranja {
+    background-color:orange;
+    color: yellow;
+    padding: 0 4px;
+    display: inline;
+}
+
+p {
+    display: inline;
+}
+
+button {
+    background-color:blue;
+    color:white;
+    margin: 4px 0;
+}

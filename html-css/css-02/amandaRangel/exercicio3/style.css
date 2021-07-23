@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+/* position fixed: se posiciona em relação ao viewport da tela, sempre visível */
+header {
+  background-color: lightblue;
+  height: 80px;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+}
+
+/* position sticky: segue o fluxo normal e em um determinado ponto (definido pelo top, bottom, left, right) passa a ser fixo. */
+nav {
+  background-color: lightseagreen;
+  height: 60px;
+  position: sticky;
+  top: 0;
+}
+
+main {
+  margin-top: 80px;
+  /* position: sticky;
+  top: 60px; */
+}
+
+.container {
+  height: 200vh;
+  position: relative;
+}
+
+/* position absolute: tira do fluxo normal. Se o pai não tiver posição definida se posiciona em relação ao body */
+footer {
+  background-color: lightpink;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
