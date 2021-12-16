@@ -1,4 +1,4 @@
-# ANOTAÇÕES --- JAVASCRIPT, HTML, CSS
+# practice-htmlcssjs
 
 ## INTEGRANTE
 Nome      | Sobrenome
