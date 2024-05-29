@@ -1,4 +1,4 @@
-# practice-htmlcssjs
+# frontend-practice-htmlcssjs
 
 ## INTEGRANTE
 Nome      | Sobrenome
